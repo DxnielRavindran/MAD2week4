@@ -14,7 +14,7 @@ import UIKit
 
 class AddFriendViewController: UIViewController {
 
-
+    
     @IBOutlet weak var firstNameFld: UITextField!
     @IBOutlet weak var lastNameFld: UITextField!
     @IBOutlet weak var mobileFld: UITextField!

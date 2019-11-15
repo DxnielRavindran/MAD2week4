@@ -12,6 +12,7 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
     var contactList:[Contact] = []
+    var index: Int!
     
    
 

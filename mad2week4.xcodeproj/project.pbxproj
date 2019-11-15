@@ -17,6 +17,7 @@
 		8F494AB9237D274300DE3F36 /* AddContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F494AB8237D274300DE3F36 /* AddContactViewController.swift */; };
 		8F494ABB237D2F0300DE3F36 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F494ABA237D2F0300DE3F36 /* Contact.swift */; };
 		8F494ABD237D3BA100DE3F36 /* ShowContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F494ABC237D3BA100DE3F36 /* ShowContactViewController.swift */; };
+		8F494ABF237E597D00DE3F36 /* EditContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F494ABE237E597D00DE3F36 /* EditContactViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		8F494AB8237D274300DE3F36 /* AddContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactViewController.swift; sourceTree = "<group>"; };
 		8F494ABA237D2F0300DE3F36 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		8F494ABC237D3BA100DE3F36 /* ShowContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowContactViewController.swift; sourceTree = "<group>"; };
+		8F494ABE237E597D00DE3F36 /* EditContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditContactViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,9 +71,10 @@
 				8F45226D237157D2003118C4 /* ViewController.swift */,
 				8F45226F237157D2003118C4 /* Main.storyboard */,
 				8F494AB6237D132700DE3F36 /* Content.storyboard */,
-				8F494ABA237D2F0300DE3F36 /* Contact.swift */,
+				8F494ABE237E597D00DE3F36 /* EditContactViewController.swift */,
 				8F494AB8237D274300DE3F36 /* AddContactViewController.swift */,
 				8F494ABC237D3BA100DE3F36 /* ShowContactViewController.swift */,
+				8F494ABA237D2F0300DE3F36 /* Contact.swift */,
 				8F452272237157D5003118C4 /* Assets.xcassets */,
 				8F452274237157D5003118C4 /* LaunchScreen.storyboard */,
 				8F452277237157D5003118C4 /* Info.plist */,
@@ -153,6 +156,7 @@
 			files = (
 				8F45226E237157D2003118C4 /* ViewController.swift in Sources */,
 				8F494AB9237D274300DE3F36 /* AddContactViewController.swift in Sources */,
+				8F494ABF237E597D00DE3F36 /* EditContactViewController.swift in Sources */,
 				8F494ABB237D2F0300DE3F36 /* Contact.swift in Sources */,
 				8F45226A237157D2003118C4 /* AppDelegate.swift in Sources */,
 				8F494ABD237D3BA100DE3F36 /* ShowContactViewController.swift in Sources */,

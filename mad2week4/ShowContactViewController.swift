@@ -44,6 +44,7 @@ class ShowContactViewController : UITableViewController {
         return cell
     }
     
+    //method to slide and delete
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == UITableViewCell.EditingStyle.delete {
             // Remove selected contact from contactList
@@ -52,5 +53,12 @@ class ShowContactViewController : UITableViewController {
             // Reload TableView
             self.tableView.reloadData()
         }
+    }
+    
+    
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)
+    {
+        appDelegate.index = indexPath.row
     }
 }
