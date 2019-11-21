@@ -14,6 +14,8 @@ import UIKit
 class EditContactViewController: UIViewController {
 
     var appDelegate = UIApplication.shared.delegate as! AppDelegate
+    let controller = ContactController()
+    
     
     @IBOutlet weak var EditFirstName: UITextField!
     @IBOutlet weak var EditLastName: UITextField!
@@ -26,12 +28,14 @@ class EditContactViewController: UIViewController {
     }
     
     @IBAction func BtnEdit(_ sender: Any) {
-        var index = appDelegate.index
+        
+        let index = appDelegate.index
         let contact = appDelegate.contactList[index!]
         contact.firstName = EditFirstName.text!
         contact.lastName = EditLastName.text!
         contact.mobileNo = EditNumber.text!
         
+        controller.updateContact(mobileno: controller.retrieveALLContact()[index!].mobileNo, newContact: contact)
     }
     
 }

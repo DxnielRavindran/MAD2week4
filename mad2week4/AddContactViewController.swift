@@ -34,22 +34,20 @@ class AddFriendViewController: UIViewController {
     
     
     @IBAction func createBtn(_ sender: Any) {
-        let appDelegate = UIApplication.shared.delegate as! AppDelegate
-        print(String(appDelegate.contactList.count))
-        
-        let oldcount:Int = appDelegate.contactList.count
-        
+//        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+//        print(String(appDelegate.contactList.count))
+//
+//        let oldcount:Int = appDelegate.contactList.count
         
         let newContact = Contact(firstname: firstNameFld.text!, lastname: lastNameFld.text!, mobileno:  mobileFld.text!)
-        appDelegate.contactList.append(newContact)
+        //create the contact object and append it into the list
+        let controller = ContactController()
+        controller.AddContact(newContact: newContact)
         
-          if (appDelegate.contactList.count == oldcount + 1)
-          {
-            print("added")
-            firstNameFld.text = ""
-            lastNameFld.text = ""
-            mobileFld.text = ""
-        }
+ 
+        
+        
+         
        
         
     }

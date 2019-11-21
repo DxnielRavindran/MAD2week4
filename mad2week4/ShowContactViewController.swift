@@ -13,6 +13,7 @@ import UIKit
 class ShowContactViewController : UITableViewController {
     
     var appDelegate = UIApplication.shared.delegate as! AppDelegate
+    let controller = ContactController()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,13 +33,13 @@ class ShowContactViewController : UITableViewController {
     
     //method for writing rows of table
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return appDelegate.contactList.count
+        return (controller.retrieveALLContact().count)
     }
     
     //method to populate 
     override func tableView(_ tableview: UITableView, cellForRowAt indexPath: IndexPath)-> UITableViewCell{
         let cell = self.tableView.dequeueReusableCell(withIdentifier: "ContactCell", for: indexPath)
-        let contact = appDelegate.contactList[indexPath.row]
+        let contact = (controller.retrieveALLContact()[indexPath.row])
         cell.textLabel!.text = "\(contact.firstName) \(contact.lastName)"
         cell.detailTextLabel!.text = "\(contact.mobileNo)"
         return cell
@@ -47,8 +48,11 @@ class ShowContactViewController : UITableViewController {
     //method to slide and delete
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == UITableViewCell.EditingStyle.delete {
-            // Remove selected contact from contactList
+           
             appDelegate.contactList.remove(at: indexPath.row)
+            
+            controller.deleteContact(mobileno: controller.retrieveALLContact()[indexPath.row].mobileNo)
+            
             
             // Reload TableView
             self.tableView.reloadData()
