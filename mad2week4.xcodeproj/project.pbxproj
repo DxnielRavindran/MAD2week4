@@ -19,6 +19,9 @@
 		8F494ABD237D3BA100DE3F36 /* ShowContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F494ABC237D3BA100DE3F36 /* ShowContactViewController.swift */; };
 		8F494ABF237E597D00DE3F36 /* EditContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F494ABE237E597D00DE3F36 /* EditContactViewController.swift */; };
 		8F5DF0A723864C8B00EADD17 /* ContactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5DF0A623864C8B00EADD17 /* ContactController.swift */; };
+		8F5DF0A9238677D800EADD17 /* FriendController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5DF0A8238677D800EADD17 /* FriendController.swift */; };
+		8F5DF0AB2386792D00EADD17 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5DF0AA2386792D00EADD17 /* Friend.swift */; };
+		8F5DF0AD2386795B00EADD17 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5DF0AC2386795B00EADD17 /* Message.swift */; };
 		8F5FA9772383C8F700D2B6B5 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8F5FA9752383C8F700D2B6B5 /* Model.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +40,9 @@
 		8F494ABC237D3BA100DE3F36 /* ShowContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowContactViewController.swift; sourceTree = "<group>"; };
 		8F494ABE237E597D00DE3F36 /* EditContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditContactViewController.swift; sourceTree = "<group>"; };
 		8F5DF0A623864C8B00EADD17 /* ContactController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactController.swift; sourceTree = "<group>"; };
+		8F5DF0A8238677D800EADD17 /* FriendController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendController.swift; sourceTree = "<group>"; };
+		8F5DF0AA2386792D00EADD17 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		8F5DF0AC2386795B00EADD17 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		8F5FA9762383C8F700D2B6B5 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,6 +85,9 @@
 				8F494AB6237D132700DE3F36 /* Content.storyboard */,
 				8F494ABE237E597D00DE3F36 /* EditContactViewController.swift */,
 				8F494AB8237D274300DE3F36 /* AddContactViewController.swift */,
+				8F5DF0A8238677D800EADD17 /* FriendController.swift */,
+				8F5DF0AC2386795B00EADD17 /* Message.swift */,
+				8F5DF0AA2386792D00EADD17 /* Friend.swift */,
 				8F494ABC237D3BA100DE3F36 /* ShowContactViewController.swift */,
 				8F494ABA237D2F0300DE3F36 /* Contact.swift */,
 				8F452272237157D5003118C4 /* Assets.xcassets */,
@@ -167,8 +176,11 @@
 				8F494ABB237D2F0300DE3F36 /* Contact.swift in Sources */,
 				8F45226A237157D2003118C4 /* AppDelegate.swift in Sources */,
 				8F494ABD237D3BA100DE3F36 /* ShowContactViewController.swift in Sources */,
+				8F5DF0A9238677D800EADD17 /* FriendController.swift in Sources */,
 				8F45226C237157D2003118C4 /* SceneDelegate.swift in Sources */,
+				8F5DF0AD2386795B00EADD17 /* Message.swift in Sources */,
 				8F5DF0A723864C8B00EADD17 /* ContactController.swift in Sources */,
+				8F5DF0AB2386792D00EADD17 /* Friend.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
