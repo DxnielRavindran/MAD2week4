@@ -14,15 +14,14 @@ import UIKit
 
 class Friend{
 
-    var firstName:String
-    var lastName:String
-    var mobileNo:String
+    var Name:String
+    var ProfileImageName:String
     
     
-    init(firstname:String, lastname:String, mobileno:String ) {
-        firstName = firstname
-        lastName = lastname
-        mobileNo = mobileno
+    init(name:String, profileimageName:String ) {
+        Name = name
+        ProfileImageName = profileimageName
+     
     }
     
 }

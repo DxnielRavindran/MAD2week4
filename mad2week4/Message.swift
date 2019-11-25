@@ -12,17 +12,17 @@ import UIKit
 
 
 
-class Messsage{
+class Message{
 
-    var firstName:String
-    var lastName:String
-    var mobileNo:String
+    var Date:Date
+    var IsSender:Bool
+    var Text:String
     
     
-    init(firstname:String, lastname:String, mobileno:String ) {
-        firstName = firstname
-        lastName = lastname
-        mobileNo = mobileno
+    init(date:Date, issender:Bool, text:String ) {
+        Date = date
+        IsSender = issender
+       Text = text
     }
     
 }
