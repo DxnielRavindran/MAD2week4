@@ -64,7 +64,7 @@ class FriendController{
     
         let appDelegate = (UIApplication.shared.delegate) as! AppDelegate
         let context = appDelegate.persistentContainer.viewContext
-        let fetchRequest = NSFetchRequest<CDMessage>(entityName: "CDMessage")
+        let fetchRequest = NSFetchRequest<NSManagedObject>(entityName: "CDMessage")
         
         
         fetchRequest.predicate = NSPredicate(format: "friend.name = %@", friend.Name)
