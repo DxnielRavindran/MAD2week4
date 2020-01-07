@@ -23,6 +23,8 @@
 		8F5DF0AB2386792D00EADD17 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5DF0AA2386792D00EADD17 /* Friend.swift */; };
 		8F5DF0AD2386795B00EADD17 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5DF0AC2386795B00EADD17 /* Message.swift */; };
 		8F5FA9772383C8F700D2B6B5 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8F5FA9752383C8F700D2B6B5 /* Model.xcdatamodeld */; };
+		D24D22D423C46235004E1F7E /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24D22D323C46235004E1F7E /* MapViewController.swift */; };
+		D24D22D623C46695004E1F7E /* LocationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24D22D523C46695004E1F7E /* LocationDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		8F5DF0AA2386792D00EADD17 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
 		8F5DF0AC2386795B00EADD17 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		8F5FA9762383C8F700D2B6B5 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		D24D22D323C46235004E1F7E /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		D24D22D523C46695004E1F7E /* LocationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,7 @@
 				8F45226D237157D2003118C4 /* ViewController.swift */,
 				8F45226F237157D2003118C4 /* Main.storyboard */,
 				8F494AB6237D132700DE3F36 /* Content.storyboard */,
+				D24D22D323C46235004E1F7E /* MapViewController.swift */,
 				8F494ABE237E597D00DE3F36 /* EditContactViewController.swift */,
 				8F494AB8237D274300DE3F36 /* AddContactViewController.swift */,
 				8F5DF0A8238677D800EADD17 /* FriendController.swift */,
@@ -93,6 +98,7 @@
 				8F452272237157D5003118C4 /* Assets.xcassets */,
 				8F452274237157D5003118C4 /* LaunchScreen.storyboard */,
 				8F452277237157D5003118C4 /* Info.plist */,
+				D24D22D523C46695004E1F7E /* LocationDelegate.swift */,
 			);
 			path = mad2week4;
 			sourceTree = "<group>";
@@ -175,6 +181,8 @@
 				8F5FA9772383C8F700D2B6B5 /* Model.xcdatamodeld in Sources */,
 				8F494ABB237D2F0300DE3F36 /* Contact.swift in Sources */,
 				8F45226A237157D2003118C4 /* AppDelegate.swift in Sources */,
+				D24D22D423C46235004E1F7E /* MapViewController.swift in Sources */,
+				D24D22D623C46695004E1F7E /* LocationDelegate.swift in Sources */,
 				8F494ABD237D3BA100DE3F36 /* ShowContactViewController.swift in Sources */,
 				8F5DF0A9238677D800EADD17 /* FriendController.swift in Sources */,
 				8F45226C237157D2003118C4 /* SceneDelegate.swift in Sources */,
